@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+* {
+    font-family: "Manrope", sans-serif;
+    font-weight: normal !important;
+    margin: 0;
+    padding: 0;
+}
+.color{
+  background-color:#0A2640;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+    padding: 56px;
+}
+.main ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.main ul li {
+    padding-right: 40px; 
+    margin-top: 5px;
+    font-size: 16px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 600 !important;
+}
+
+.login {
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    height: 40px;
+    width: 128px;
+    font-size: 16px;
+    font-weight: 600 !important;
+    color: #0A2640;
+    }
+.font{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.size20 {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.text {
+    font-size: 64px;
+    width: 842px;
+    height: 168px;
+    color: #FFFFFF;
+    padding-top: 12px;
+
+}
+.paragraph{
+    font-size: 16px;
+    width: 745.37px;
+    height: 64px;
+    color: #ffffff;
+    margin-left: 44px;
+    padding-top: 17px;
+    margin-bottom: 166px;
+}
+.container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 35px;
+    margin-top: -162px;
+}
+
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-box {
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 62px;
+}
+
+.image-box img {
+    width: 300px;
+    height: 285px;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+}
+
+.center-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-box1{
+    padding-top: 69px;
+}
+.rain {
+    margin: 120px 100px;
+    padding:0px 100px 0px 100px;
+}
+.font1 {
+    font-size: 20px;
+    color: #777777;
+}
+.front {
+    font-size: 48px;
+    padding-top: 12px;
+}
+.uper {
+    margin-top: 32px;
+    font-size: 22px;
+    color: #777777;
+}
+.section-one {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    background-color: #0A2640;
+}
+.main-2 {
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.tool {
+    margin-bottom: 12px;
+    margin-top: 96px;
+    font-size: 20px;
+    color: #F1F1F1;
+}
+.agree {
+    font-size: 48px;
+    width: 842px;
+    height: 144px;
+    color: #FFFFFF;
+}
+.last {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 170px;
+    padding: 80px 0px 96px;
+
+}
+.small-heading {
+    font-size: 96px;
+    color: #4FE9A4;
+}
+.feature-title {
+    font-size: 24px;
+    color: #F1F1F1;
+}
+.section {
+    margin: 0px 100px;
+    padding: 10px 40px;
+
+}
+.section-1 {
+    margin: 0px 100px;
+    padding: 0px 40px;
+    font-size: 38px;
+}
+
+.section-2 {
+    margin: 0px 100px;
+    padding: 20px 40px 52px;
+    font-size: 20px;
+    color: #777777;
+    width: 799px;
+    height: 110px;
+}
+.font2{
+    font-size: 20px;
+    color: #777777;
+}
+.option {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+
+.option-1 {
+    color: #777777;
+    font-size: 20px;
+    padding-top: 12px;
+}
+.option-3{
+    padding-top: 72px;
+}
+.option-4 {
+    display: flex;
+    align-items: center;
+
+  
+}
+.option-5{
+    display: flex;
+    align-items: center;
+   padding-top: 72px;
+}
+.option-6{
+    display: flex;
+    align-items: center;
+ padding-top: 72px;
+    padding-bottom: 120px;
+}
+.scott {
+    font-size: 28px;
+    margin-top: 24px;
+}
+.sport{
+    margin: 120px 100px;
+    padding:0px 100px 0px 100px;
+}
+.Column{
+    background-color: #0A2640;
+}
+.mover{
+    padding-top: 120px;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 101px;
+    height: 32px;
+}
+.market{
+    font-size: 48px;
+    padding-top: 12px;
+    color:#FFFFFF;
+}
+.learning{
+    margin-top: 32px;
+    font-size: 22px;
+    color: #F1F1F1;
+}
+.text-left {
+    margin-left: 30px;
+
+}
+.space {
+    padding-bottom: 10px;
+    font-size: 28px;
+    color: #FFFFFF;
+
+}
+.flex2{
+    color: #F1F1F1;
+    font-size: 20px;
+    width: 602px;
+    height: 71px;
+}
+.margin {
+    margin: 120px;
+}
+.wrapper {
+    position: relative;
+    height: 10px;
+    width: 20px;
+}
+.wrapper::before {
+    position: absolute;
+    content: url(./img/postion-img.png);
+    top: 11px;
+    left: -177px;
+
+}
+.input {
+
+    text-align: center;
+    background-color: #0A2640;
+    color: white;
+    height: 271px;
+    border-radius: 10px;
+    padding: 72px 0px;
+    width: 100%;
+}
+.input span {
+    position: relative;
+}
+.bottom {
+    font-size: 48px;
+    padding: 0px 40px 40px;
+    width: 716px;
+    height: 139px;
+    margin: auto;
+}
+.radius1 {
+    border-radius: 120px;
+    width: 150px;
+    height: 56px;
+    background-color: #65E4A3;
+    font-weight: 800 !important;
+    border: none;
+}
+.radius {
+    border-radius: 70px;
+    list-style: none;
+    border: none;
+    width: 327px;
+    height: 32px;
+    padding: 12px 12px 12px 31px;
+    margin-right: 24px;
+}
+.radius::placeholder {
+    font-weight: 400 !important;
+    font-size: 20px;
+    color: #000;
+}
+.aline-text{
+    margin: 0px 60px 0px 20px;
+}
+.Learninge {
+    margin-left: 100px;
+   
+}
+.width-p {
+    width: 300px;
+    height: 84px;
+    margin: 40px 0px 64px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 1200px;
+    height: 386px;
+
+}
+.top {
+    padding-top: 15px;
+}
+.top ul li {
+    list-style: none;
+    padding-bottom: 32px;
+    color: #777777;
+    font-size: 18px;
+}
+.padding {
+    padding-bottom: 32px;
+    font-weight: 800 !important;
+    font-size: 20px;
+}
+.gap {
+    margin-right: 100px;
+}
+.aline{
+    display: flex;
+    padding-right: 20px;
+}   
+.green-1{
+           background-color: #65E4A3;
+        color: #000;
+        border-radius: 24px;
+        font-size: 13px;
+        height: 30px !important;
+        display: block;
+        width: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 800 !important;
+    margin-left: 12px;
+    }
+.fine{
+    margin-left: 70px;
+}

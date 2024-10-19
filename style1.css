@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+* {
+    font-family: "Manrope", sans-serif;
+    font-weight: normal !important;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+    padding: 56px;
+}
+.main ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.main ul li {
+    padding-right: 40px;
+    margin-top: 5px;
+    font-size: 16px;
+    list-style: none;
+   
+}
+.login {
+
+border: 2px solid #0A2640;
+border-radius: 24px;
+height: 40px;
+width: 128px;
+font-size: 16px;
+font-weight: 600 !important;
+color: #0A2640;
+background: transparent;
+
+}
+.file {
+    text-align: center;
+    padding-top: 40px;
+
+}
+.top-size {
+    padding-top: 40px;
+    font-size: 20px;
+    color: #0A2640;
+}
+.size {
+    font-size: 64px;
+    margin: 12px 0px 62px;
+    color: #0A2640;
+}
+.space {
+    padding: 0px 0px;
+    font-size: 16px;
+
+}
+.text-left {
+margin: 70px 0px 79px 100px;
+
+}
+
+.top1{
+   padding: 12px 0px 20px;
+   font-size: 36px;
+}
+.display{
+    display: flex;
+    align-items: center;
+}
+
+
+.option-1{
+    display: flex;
+    margin: 0px 100px;
+    padding-top: 56px;
+}
+.space-box{
+    color: #0A2640;
+    width: 1100px;
+  
+    border: 1px solid ;
+    margin: 72px 0px 0px 87px;
+}
+.soft{
+    margin: 120px;
+}
+
+.soft1{
+    margin: 120px;
+}
+.style{
+display: flex;
+    justify-content: space-between;
+   
+}
+.margin{
+    margin: 111px 120px 120px;
+}
+.flex{
+    padding-bottom: 9px;
+    font-size: 48px;
+    width: 842px;
+    height: 72px;
+}
+.topflex{
+    padding-top: 24px;
+}
+.span1{
+    font-weight: 600 !important;
+    padding-right: 12px;
+    color: #0A2640;
+}
+.span2{
+    color: #777777;
+}
+.part{
+    padding-top: 12px;
+    font-size: 20px;
+    width: 300px;
+    height: 99px;
+}
+.part1{
+    display: flex;
+    align-items: center;
+}
+.part2{
+    padding-left: 12px;
+    font-size: 16px;
+    font-weight: 500 !important;
+}
+.contect{
+    justify-content: center;
+    display: flex;
+    margin-top: 96px;
+}
+.login1{
+    border: 2px solid black;
+    border-radius: 33px;
+    height: 60px;
+    width: 219px;
+    background-color: white;
+    font-weight: 600 !important;
+    font-size: 20px;
+    color: #0A2640;
+}
+.left{
+    padding-left: 12px;
+}
+.margin1 {
+    margin: 120px;
+}
+.wrapper {
+    position: relative;
+    height: 10px;
+    width: 20px;
+}
+.wrapper::before {
+    position: absolute;
+    content: url(./img/postion-img.png);
+    top: 11px;
+    left: -177px;
+
+}
+.input1 {
+
+    text-align: center;
+    background-color: #0A2640;
+    color: white;
+    border-radius: 10px;
+    padding: 72px 0px;
+    width: 100%;
+
+}
+.input1 span {
+    position: relative;
+}
+.bottom1 {
+    font-size: 48px;
+    padding: 0px 40px 40px;
+    width: 716px;
+    margin: auto;
+    height: 139px;
+}
+.radius1::placeholder{
+    font-size: 18px;
+    color: #000;
+}
+.radius1::placeholder {
+    font-weight: 400 !important;
+    font-size: 20px;
+    color: #000;
+}
+.radius1 {
+    border-radius: 70px;
+    list-style: none;
+    border: none;
+    width: 327px;
+    height: 32px;
+    padding: 12px 12px 12px 31px;
+    margin-right: 24px;
+}
+.radius2 {
+    border-radius: 120px;
+    width: 150px;
+    height: 56px;
+    background-color: #65E4A3;
+    font-weight: 800 !important;
+    border: none;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 1200px;
+    height: 386px;
+
+}
+.Learninge {
+    margin-left: 100px;
+}
+.width-p {
+    width: 300px;
+    height: 84px;
+    margin: 40px 0px 64px;
+}
+.top {
+    padding-top: 15px;
+}
+.top ul li {
+    list-style: none;
+    padding-bottom: 32px;
+}
+.weight {
+    color: #777777;
+    font-size: 18px;
+    /* font-weight: 600 !important; */
+}
+.padding {
+    padding-bottom: 32px;
+    font-weight: 800 !important;
+    font-size: 20px;
+}
+.gap {
+    margin-right: 100px;
+}
+.main ul li a{
+    text-decoration: none;
+    color: #0A2640;
+    font-weight: 600 !important;
+}
+.green-1{
+    background-color: #65E4A3;
+    color: #000;
+    border-radius: 24px;
+    font-size: 13px;
+    height: 30px !important;
+    width: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800 !important;
+    margin-left: 12px;
+}
+.aline{
+    display: flex;
+    padding-right: 20px;
+ }
+.aline-text{
+    margin: 0px 60px 0px 20px;
+}
