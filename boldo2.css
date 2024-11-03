@@ -31,7 +31,7 @@ header {
     text-decoration: none;
     font-weight: 600 !important;
 }
-.main-2 {
+ .services {
     justify-content: center;
     text-align: center;
     display: flex;
@@ -111,13 +111,13 @@ header {
 .font{
     position:absolute;
 }
-.font2{
+.cricle{
     position: relative;
     top: -78px;
     left: 16px;
 
 }
-.font3{
+.vector{
     position: relative;
     top: 38.58px;
     right: 27.9px;
@@ -155,7 +155,7 @@ display: flex;
 }
 header::before{
     position: absolute;
-    content: url(./img/Ellipse\ 9\ \(1\).png);
+    content: url(./img/bg-shap.png);
     top: 0px;
     left: 640px;
 
@@ -195,20 +195,22 @@ header::before{
     padding-right: 12px;
     padding-bottom: 8px;
 }
-.alone{
+.position{
     position: absolute;
 }
-.said{
+.stay{
     position: relative;
     top: 191px;
     left: 142px;
 }
-.flex1{
-    font-size: 36px;
+.flexs{
+    font-size: 20px;
     width: 493px;
-    height: 164px;
+    padding-top: 20px;
+    padding-left: 24px;
+
 }
-.option-2 {
+.customers {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -216,14 +218,20 @@ header::before{
 .text-left{
 margin: 120px 70px;
 }
-.space1{
+.income{
     font-size: 36px;
     width: 493px;
     height: 164px;
+    padding-top: 90px;
 }
 .atom{
     display: flex;
     align-items: center;
+    
+    padding-bottom: 24px;
+}
+.pb{
+    padding-top: 25px;
 }
 .flex2{
     font-size: 20px;
@@ -252,15 +260,16 @@ margin: 120px 70px;
 .best{
     color: #FFFFFF;
 }
-.best1{
+.consumer{
     font-size: 16px;
 }
 .src{
     background-color: #0A2640;
     display: flex;
     padding: 16px 53px 16px 0px;
+    width: 378px;
 }
-.src1{
+.Advisor{
     background-color: #FFFFFF;
     display: flex;
     padding: 16px 14px 16px 0px; 
@@ -329,7 +338,7 @@ margin: 120px 70px;
     height: 28px;
     padding-top: 10px;
 }
-.nav1{
+.naveber{
     padding-left: 32px;
     width: 28px;
     height: 28px; 
@@ -347,7 +356,7 @@ margin: 120px 70px;
     color: #C4C4C4;
     margin-bottom: 32px;
 }
-.href1{
+.hrefs{
     width: 439px;
     height: 37px;
     font-size: 20px;
@@ -374,19 +383,19 @@ margin: 120px 70px;
  justify-content: space-between;       
     margin: 140px;
 }
-.style2{
+.styles{
     padding-right: 50px;
 }
 .topflex{
  padding-top: 24px;
 }
 
-.span1{
+.pitch{
     font-weight: 600 !important;
     padding-right: 12px;
     color: #0A2640;
 }
-.span2{
+.focus{
     color: #777777;
 }
 .part{
@@ -395,11 +404,11 @@ margin: 120px 70px;
     width: 300px;
     height: 99px;
 }
-.part1{
+.bing{
     display: flex;
     align-items: center;
 }
-.part2{
+.round{
     padding-left: 12px;
     font-size: 16px;
     font-weight: 500 !important;
@@ -409,7 +418,7 @@ margin: 120px 70px;
     display: flex;
     margin-top: 96px;
 }
-.login1{
+.Load-more{
     border: 2px solid black;
     border-radius: 33px;
     height: 60px;
@@ -419,7 +428,7 @@ margin: 120px 70px;
     font-size: 20px;
     color: #0A2640;
 }
-.margin1 {
+.ramps{
     margin: 120px;
 }
 .wrapper {
@@ -434,7 +443,7 @@ margin: 120px 70px;
     left: -177px;
 
 }
-.input1 {
+.template {
 
     text-align: center;
     background-color: #0A2640;
@@ -444,10 +453,10 @@ margin: 120px 70px;
     width: 100%;
 
 }
-.input1 span {
+.template span {
     position: relative;
 }
-.bottom1 {
+.website {
     font-size: 48px;
     padding: 0px 40px 40px;
     width: 716px;
@@ -544,4 +553,10 @@ margin: 120px 70px;
     font-weight: 800 !important;
     font-size: 20px;
     color: #0A2640;
+}
+.img-flex{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 99px;
+    
 }

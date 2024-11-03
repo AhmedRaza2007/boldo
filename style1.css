@@ -60,7 +60,7 @@ margin: 70px 0px 79px 100px;
 
 }
 
-.top1{
+.focus{
    padding: 12px 0px 20px;
    font-size: 36px;
 }
@@ -70,7 +70,7 @@ margin: 70px 0px 79px 100px;
 }
 
 
-.option-1{
+.operate{
     display: flex;
     margin: 0px 100px;
     padding-top: 56px;
@@ -106,12 +106,12 @@ display: flex;
 .topflex{
     padding-top: 24px;
 }
-.span1{
+.value{
     font-weight: 600 !important;
     padding-right: 12px;
     color: #0A2640;
 }
-.span2{
+.template{
     color: #777777;
 }
 .part{
@@ -120,11 +120,11 @@ display: flex;
     width: 300px;
     height: 99px;
 }
-.part1{
+.main-part{
     display: flex;
     align-items: center;
 }
-.part2{
+.value{
     padding-left: 12px;
     font-size: 16px;
     font-weight: 500 !important;
@@ -134,7 +134,7 @@ display: flex;
     display: flex;
     margin-top: 96px;
 }
-.login1{
+.bg{
     border: 2px solid black;
     border-radius: 33px;
     height: 60px;
@@ -147,7 +147,7 @@ display: flex;
 .left{
     padding-left: 12px;
 }
-.margin1 {
+.py{
     margin: 120px;
 }
 .wrapper {
@@ -162,7 +162,7 @@ display: flex;
     left: -177px;
 
 }
-.input1 {
+.vector {
 
     text-align: center;
     background-color: #0A2640;
@@ -172,26 +172,26 @@ display: flex;
     width: 100%;
 
 }
-.input1 span {
+.vector span {
     position: relative;
 }
-.bottom1 {
+.font-size {
     font-size: 48px;
     padding: 0px 40px 40px;
     width: 716px;
     margin: auto;
     height: 139px;
 }
-.radius1::placeholder{
+.creativ::placeholder{
     font-size: 18px;
     color: #000;
 }
-.radius1::placeholder {
+.creative::placeholder{
     font-weight: 400 !important;
     font-size: 20px;
     color: #000;
 }
-.radius1 {
+.creative {
     border-radius: 70px;
     list-style: none;
     border: none;
@@ -200,7 +200,7 @@ display: flex;
     padding: 12px 12px 12px 31px;
     margin-right: 24px;
 }
-.radius2 {
+.startnow {
     border-radius: 120px;
     width: 150px;
     height: 56px;

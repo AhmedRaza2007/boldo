@@ -46,7 +46,7 @@ a {
     justify-content: center;
     text-align: center;
 }
-.size20 {
+.about {
     font-size: 20px;
     color: #FFFFFF;
 }
@@ -59,7 +59,7 @@ a {
 
 }
 .paragraph{
-    font-size: 16px;
+    font-size: 27px;
     width: 745.37px;
     height: 64px;
     color: #ffffff;
@@ -100,14 +100,14 @@ a {
     justify-content: center;
     align-items: center;
 }
-.image-box1{
+.direct{
     padding-top: 69px;
 }
 .rain {
     margin: 120px 100px;
     padding:0px 100px 0px 100px;
 }
-.font1 {
+.our-story {
     font-size: 20px;
     color: #777777;
 }
@@ -125,7 +125,7 @@ a {
     margin-bottom: 120px;
     background-color: #0A2640;
 }
-.main-2 {
+.number {
     justify-content: center;
     text-align: center;
     display: flex;
@@ -163,13 +163,13 @@ a {
     padding: 10px 40px;
 
 }
-.section-1 {
+.behind {
     margin: 0px 100px;
     padding: 0px 40px;
     font-size: 38px;
 }
 
-.section-2 {
+.investor {
     margin: 0px 100px;
     padding: 20px 40px 52px;
     font-size: 20px;
@@ -177,7 +177,7 @@ a {
     width: 799px;
     height: 110px;
 }
-.font2{
+.our-team{
     font-size: 20px;
     color: #777777;
 }
@@ -187,26 +187,26 @@ a {
     margin: 0px 100px;
 }
 
-.option-1 {
+.general-manager {
     color: #777777;
     font-size: 20px;
     padding-top: 12px;
 }
-.option-3{
+.padding-top{
     padding-top: 72px;
 }
-.option-4 {
+.display-flex{
     display: flex;
     align-items: center;
 
   
 }
-.option-5{
+.crowdfunding{
     display: flex;
     align-items: center;
    padding-top: 72px;
 }
-.option-6{
+.Handshake{
     display: flex;
     align-items: center;
  padding-top: 72px;
@@ -250,7 +250,7 @@ a {
     color: #FFFFFF;
 
 }
-.flex2{
+.angel{
     color: #F1F1F1;
     font-size: 20px;
     width: 602px;

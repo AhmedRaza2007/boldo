@@ -92,7 +92,7 @@ a {
     color: #0A2640;
 }
 
-.main-2 {
+.number {
     justify-content: center;
     text-align: center;
     display: flex;
@@ -169,7 +169,7 @@ a {
     padding: 10px 40px;
 }
 
-.section-1 {
+.iteration{
     margin: 0px 100px;
     padding: 0px 40px;
     font-size: 38px;
@@ -190,20 +190,20 @@ a {
 
 }
 
-.option-1 {
+.general-manager {
     color: #777777;
     font-size: 20px;
     padding-top: 12px;
 }
 
-.option-2 {
+.schrute {
     display: flex;
     align-items: center;
     margin: 7px 50px;
     justify-content: space-between;
 }
 
-.option-3 {
+.behind {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -211,7 +211,7 @@ a {
 
 }
 
-.option-4 {
+.svg {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -292,12 +292,12 @@ a {
 
 
 
-.world1 {
+.progress {
     font-size: 30px;
     margin-left: 126px;
 }
 
-.form1 {
+.metrics {
     display: flex;
     align-items: center;
     width: 457px;
@@ -305,19 +305,19 @@ a {
 
 }
 
-.text-box1 {
+.growth {
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
 }
 
-.text-box2 {
+.experience {
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
 }
 
-.form2 {
+.mass {
     display: flex;
     align-items: center;
     width: 457px;
@@ -325,7 +325,7 @@ a {
 
 }
 
-.world2 {
+.chain {
     font-size: 30px;
     margin-left: 126px;
 }
@@ -365,7 +365,7 @@ a {
     font-size: 18px;
     color: #000;
 }
-.radius1 {
+.startnow {
     border-radius: 120px;
     width: 150px;
     height: 56px;
@@ -502,15 +502,15 @@ a {
 
 }
 
-.size20 {
+.about{
     font-size: 20px;
     color: #0A2640;
 }
-.font2{
+.our-team{
     font-size: 20px;
     color: #777777;
 }
-.font1 {
+.our-story{
     font-size: 20px;
 
 }
@@ -524,6 +524,6 @@ a {
 display: flex;
 padding-right: 20px;
 }
-.flex2{
+.generalmanager{
     color: #777777;
 }
