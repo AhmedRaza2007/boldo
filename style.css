@@ -111,7 +111,6 @@ a {
 .last {
     display: flex;
     justify-content: space-between;
-    margin: 0px 170px;
     padding: 80px 0px 0;
 
 }
@@ -271,10 +270,8 @@ a {
 }
 
 .world {
-    font-size: 30px;
-    margin-left: 126px;
-
-
+    font-size: 48px;
+    margin-bottom: 26px;
 }
 
 .form {
@@ -288,23 +285,16 @@ a {
     font-size: 56px;
     margin: 12px 0px 62px;
 }
-
-
-
-
-.progress {
-    font-size: 30px;
-    margin-left: 126px;
+.skill{
+    font-size: 48px;
+    margin-bottom: 75px;
 }
-
 .metrics {
     display: flex;
     align-items: center;
     width: 457px;
     color: #F1F1F1;
-
 }
-
 .growth {
     display: flex;
     justify-content: space-between;
@@ -326,13 +316,12 @@ a {
 }
 
 .chain {
-    font-size: 30px;
-    margin-left: 126px;
+    font-size: 48px;
+    margin-bottom: 75px;
 }
 
 .space-box {
-    width: 873px;
-    margin-left: 42px;
+    width: 940px;
 }
 
 .input {
@@ -344,6 +333,9 @@ a {
     border-radius: 10px;
     padding: 72px 0px;
     width: 100%;
+    height: 370px;
+    margin-top: 50px;
+    position: relative;
 }
 
 .radius::placeholder {
@@ -356,9 +348,7 @@ a {
     border-radius: 70px;
     list-style: none;
     border: none;
-    width: 327px;
-    height: 32px;
-    padding: 12px 12px 12px 31px;
+    padding: 12px 113px 12px 31px;
     margin-right: 24px;
 }
 .radius::placeholder{
@@ -377,7 +367,7 @@ a {
 .bottom {
     font-size: 48px;
     padding: 0px 40px 40px;
-    width: 716px;
+    width: 775px;
     height: 139px;
     margin: auto;
 }
@@ -403,31 +393,29 @@ a {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
-    width: 1200px;
     height: 386px;
-
+    margin-top: 84px;
 }
 
-.wrapper {
-    position: relative;
-    height: 10px;
-    width: 20px;
-}
 
-.wrapper::before {
+.input::before {
     position: absolute;
     content: url(./img/postion-img.png);
-    top: 11px;
-    left: -177px;
+    top: 0px;
+    right: 0px;
 
 }
 
 .input span {
     position: relative;
 }
-
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
 .center {
     position: relative;
+    padding-top: 48px;
 }
 
 .width {
@@ -445,7 +433,7 @@ a {
 }
 
 .width-p {
-    width: 300px;
+    width: 436px;
     height: 84px;
     margin: 40px 0px 64px;
 }
@@ -454,6 +442,8 @@ a {
     padding-bottom: 32px;
     font-weight: 800 !important;
     font-size: 20px;
+    padding-left: 30px;
+
 }
 
 .top ul li {
@@ -497,9 +487,9 @@ a {
 }
 
 .section-one {
-    margin-top: 120px;
-    margin-bottom: 120px;
-
+    /* margin-top: 120px;
+    margin-bottom: 120px; */
+  margin: 120px 0px 120px 0px;
 }
 
 .about{
@@ -512,13 +502,7 @@ a {
 }
 .our-story{
     font-size: 20px;
-
 }
-.aline-text{
-    margin: 0px 60px 0px 20px;
-}
-
-
 
 .aline{
 display: flex;

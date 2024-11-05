@@ -6,6 +6,10 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    width: 1200px !important;
+    margin: 0 auto;
+}
 header {
     padding: 56px 100px;
     background-color: #ffffff;
@@ -510,6 +514,7 @@ margin: 120px 70px;
 }
 .top {
     padding-top: 15px;
+    margin-right: 100px;
 }
 .top ul li {
     list-style: none;
