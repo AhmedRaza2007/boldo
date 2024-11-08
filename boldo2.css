@@ -10,10 +10,11 @@
     width: 1200px !important;
     margin: 0 auto;
 }
-header {
-    padding: 56px 100px;
+.reserved{
+    position: relative;
+}
+.lorem {
     background-color: #ffffff;
-    position: relative; 
 }
 .main {
     display: flex;
@@ -36,9 +37,7 @@ header {
     font-weight: 600 !important;
 }
  .services {
-    justify-content: center;
     text-align: center;
-    display: flex;
 }
 .side {
     width: 60%;
@@ -47,14 +46,15 @@ header {
     margin-bottom: 12px;
     font-size: 20px;
      color: #F1F1F1;
-     margin-top: 82px;
-    padding-left: 70px;
+     padding-left: 327px;
+     padding-top: 84px;
  }
  .agree {
     font-size: 48px;
-    width: 842px;
+    width: 970px;
     height: 144px;
     color: #FFFFFF;
+    padding-left: 82px;
 }
 
  .logo h1 {
@@ -145,6 +145,7 @@ display: flex;
 .flex{
     padding-top: 56px;
     padding-left: 72px;
+    padding-bottom: 10px;
 }
 .About{
     padding-left: 72px;
@@ -156,12 +157,13 @@ display: flex;
 }
 .none{
     padding-top: 92px;
+    padding-bottom: 74px;
 }
-header::before{
+.lorem::before{
     position: absolute;
     content: url(./img/bg-shap.png);
     top: 0px;
-    left: 640px;
+    right: 0;
 
 }
 .Return{
@@ -170,7 +172,6 @@ header::before{
 .option {
     display: flex;
     justify-content: space-between;
-    margin: 0px 100px;
     padding: 56px 0px;
 
 }
@@ -212,7 +213,9 @@ header::before{
     width: 493px;
     padding-top: 20px;
     padding-left: 24px;
-
+}
+.latest{
+    padding-top: 90px;
 }
 .customers {
     display: flex;
@@ -259,7 +262,7 @@ margin: 120px 70px;
     height: 164px;
 }
 .margin{
-    margin: 120px 120px 379px 77px;
+    margin: 120px 0px 379px 0px;
 }
 .best{
     color: #FFFFFF;
@@ -305,24 +308,25 @@ margin: 120px 70px;
     height: 139px;
     padding-bottom: 72px;
     color: #FFFFFF;
+    margin-right: 233px;
 }
 .png img{
-    padding: 65px 0px 0px 291px;
     width: 172px;
     height: 72px;
+    margin-top: 75px;
 }
 .png{
   display: flex;
-  margin: 0px 92px 0px;
   padding-top: 100px;
-
-
 }
 .fix{
-    margin: 7px;
+    display: flex;
+    justify-content: center;
 }
+
 .group{
     background-color: #0A2640;
+    height: 804px;
 }
 .logo{
     margin: 120px;
@@ -337,13 +341,11 @@ margin: 120px 70px;
     display: flex;
 }
 .nav{
-    padding-left: 84px;
     width: 28px;
     height: 28px;
-    padding-top: 10px;
+    margin-left: 50px;
 }
 .naveber{
-    padding-left: 32px;
     width: 28px;
     height: 28px; 
 }
@@ -385,7 +387,6 @@ margin: 120px 70px;
 .style{
  display: flex;
  justify-content: space-between;       
-    margin: 140px;
 }
 .styles{
     padding-right: 50px;
@@ -432,10 +433,8 @@ margin: 120px 70px;
     font-size: 20px;
     color: #0A2640;
 }
-.ramps{
-    margin: 120px;
-}
-.wrapper {
+
+/* .wrapper {
     position: relative;
     height: 10px;
     width: 20px;
@@ -459,11 +458,35 @@ margin: 120px 70px;
 }
 .template span {
     position: relative;
+} */
+.template {
+
+    text-align: center;
+    background-color: #0A2640;
+    color: white;
+    height: 271px;
+    border-radius: 10px;
+    padding: 72px 0px;
+    width: 100%;
+    height: 370px;
+    margin-top: 50px;
+    position: relative;
+}
+.template::before {
+    position: absolute;
+    content: url(./img/postion-img.png);
+    top: 0px;
+    right: 0px;
+
+}
+
+.template span {
+    position: relative;
 }
 .website {
     font-size: 48px;
     padding: 0px 40px 40px;
-    width: 716px;
+    width: 777px;
     margin: auto;
     height: 139px;
 }
@@ -480,9 +503,7 @@ margin: 120px 70px;
     border-radius: 70px;
     list-style: none;
     border: none;
-    width: 327px;
-    height: 32px;
-    padding: 12px 12px 12px 31px;
+    padding: 12px 113px 12px 31px;
     margin-right: 24px;
 }
 .radius2 {
@@ -563,5 +584,61 @@ margin: 120px 70px;
     display: flex;
     justify-content: end;
     margin-bottom: 99px;
-    
+}
+.partner{
+    padding-bottom: 40px;
+    color: #000000;
+}
+.manrope{
+    background-color: #FFFFFF;
+    border: 1px solid;
+    width: 371px;
+    padding: 50px;
+    border-radius: 12px;
+}
+.isolate{
+    background-color: #FFFFFF;
+    border: 1px solid;
+    width: 371px;
+    padding: 50px;
+    border-radius: 12px;
+}
+.buyers{
+    background-color: #FFFFFF;
+    border: 1px solid;
+    width: 371px;
+    padding: 50px;
+    margin-bottom: -58px;
+    border-radius: 12px;
+}
+.howarts{
+display: flex;
+}
+.albus{
+    padding-top: 10px;
+    padding-left: 16px;
+}
+h4{
+    padding-bottom: 6px;
+    color: #0A2640;
+    font-size: 16px;
+}
+.place{
+    font-size: 24px;
+    margin: 0;
+}
+.disruptive{
+    font-size: 14px;
+    color: #0A2640;
+}
+.dumbledore{
+    font-size: 16px;
+    color:#0A2640;
+    font-weight: 600 !important;
+    margin-bottom: 0;
+}
+.outline{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 70px;
 }
